@@ -4,7 +4,7 @@
 package ma.projet.grpc.stubs;
 
 public interface CompteOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:com.example.grpcdemo.Compte)
+    // @@protoc_insertion_point(interface_extends:Compte)
     com.google.protobuf.MessageOrBuilder {
 
   /**
@@ -38,12 +38,12 @@ public interface CompteOrBuilder extends
       getDateCreationBytes();
 
   /**
-   * <code>.com.example.grpcdemo.TypeCompte type = 4;</code>
+   * <code>.TypeCompte type = 4;</code>
    * @return The enum numeric value on the wire for type.
    */
   int getTypeValue();
   /**
-   * <code>.com.example.grpcdemo.TypeCompte type = 4;</code>
+   * <code>.TypeCompte type = 4;</code>
    * @return The type.
    */
   ma.projet.grpc.stubs.TypeCompte getType();

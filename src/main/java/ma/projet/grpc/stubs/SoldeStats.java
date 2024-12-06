@@ -8,11 +8,11 @@ package ma.projet.grpc.stubs;
  * Message pour les statistiques de solde
  * </pre>
  *
- * Protobuf type {@code com.example.grpcdemo.SoldeStats}
+ * Protobuf type {@code SoldeStats}
  */
 public  final class SoldeStats extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:com.example.grpcdemo.SoldeStats)
+    // @@protoc_insertion_point(message_implements:SoldeStats)
     SoldeStatsOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use SoldeStats.newBuilder() to construct.
@@ -88,13 +88,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_SoldeStats_descriptor;
+    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_SoldeStats_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_SoldeStats_fieldAccessorTable
+    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_SoldeStats_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             ma.projet.grpc.stubs.SoldeStats.class, ma.projet.grpc.stubs.SoldeStats.Builder.class);
   }
@@ -327,21 +327,21 @@ private static final long serialVersionUID = 0L;
    * Message pour les statistiques de solde
    * </pre>
    *
-   * Protobuf type {@code com.example.grpcdemo.SoldeStats}
+   * Protobuf type {@code SoldeStats}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:com.example.grpcdemo.SoldeStats)
+      // @@protoc_insertion_point(builder_implements:SoldeStats)
       ma.projet.grpc.stubs.SoldeStatsOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_SoldeStats_descriptor;
+      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_SoldeStats_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_SoldeStats_fieldAccessorTable
+      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_SoldeStats_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               ma.projet.grpc.stubs.SoldeStats.class, ma.projet.grpc.stubs.SoldeStats.Builder.class);
     }
@@ -376,7 +376,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_SoldeStats_descriptor;
+      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_SoldeStats_descriptor;
     }
 
     @java.lang.Override
@@ -623,10 +623,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:com.example.grpcdemo.SoldeStats)
+    // @@protoc_insertion_point(builder_scope:SoldeStats)
   }
 
-  // @@protoc_insertion_point(class_scope:com.example.grpcdemo.SoldeStats)
+  // @@protoc_insertion_point(class_scope:SoldeStats)
   private static final ma.projet.grpc.stubs.SoldeStats DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new ma.projet.grpc.stubs.SoldeStats();

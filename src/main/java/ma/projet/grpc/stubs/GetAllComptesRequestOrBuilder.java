@@ -4,6 +4,6 @@
 package ma.projet.grpc.stubs;
 
 public interface GetAllComptesRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:com.example.grpcdemo.GetAllComptesRequest)
+    // @@protoc_insertion_point(interface_extends:GetAllComptesRequest)
     com.google.protobuf.MessageOrBuilder {
 }

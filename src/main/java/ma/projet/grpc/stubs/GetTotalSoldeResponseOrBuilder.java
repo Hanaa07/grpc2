@@ -4,21 +4,21 @@
 package ma.projet.grpc.stubs;
 
 public interface GetTotalSoldeResponseOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:com.example.grpcdemo.GetTotalSoldeResponse)
+    // @@protoc_insertion_point(interface_extends:GetTotalSoldeResponse)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>.com.example.grpcdemo.SoldeStats stats = 1;</code>
+   * <code>.SoldeStats stats = 1;</code>
    * @return Whether the stats field is set.
    */
   boolean hasStats();
   /**
-   * <code>.com.example.grpcdemo.SoldeStats stats = 1;</code>
+   * <code>.SoldeStats stats = 1;</code>
    * @return The stats.
    */
   ma.projet.grpc.stubs.SoldeStats getStats();
   /**
-   * <code>.com.example.grpcdemo.SoldeStats stats = 1;</code>
+   * <code>.SoldeStats stats = 1;</code>
    */
   ma.projet.grpc.stubs.SoldeStatsOrBuilder getStatsOrBuilder();
 }

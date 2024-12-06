@@ -3,8 +3,8 @@
 
 package ma.projet.grpc.stubs;
 
-public interface GetAllComptesResponseOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:GetAllComptesResponse)
+public interface GetComptesByTypeResponseOrBuilder extends
+    // @@protoc_insertion_point(interface_extends:GetComptesByTypeResponse)
     com.google.protobuf.MessageOrBuilder {
 
   /**

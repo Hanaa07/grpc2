@@ -4,7 +4,7 @@
 package ma.projet.grpc.stubs;
 
 public interface SoldeStatsOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:com.example.grpcdemo.SoldeStats)
+    // @@protoc_insertion_point(interface_extends:SoldeStats)
     com.google.protobuf.MessageOrBuilder {
 
   /**

@@ -8,11 +8,11 @@ package ma.projet.grpc.stubs;
  * Réponse contenant les statistiques de solde
  * </pre>
  *
- * Protobuf type {@code com.example.grpcdemo.GetTotalSoldeResponse}
+ * Protobuf type {@code GetTotalSoldeResponse}
  */
 public  final class GetTotalSoldeResponse extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:com.example.grpcdemo.GetTotalSoldeResponse)
+    // @@protoc_insertion_point(message_implements:GetTotalSoldeResponse)
     GetTotalSoldeResponseOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use GetTotalSoldeResponse.newBuilder() to construct.
@@ -86,13 +86,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_GetTotalSoldeResponse_descriptor;
+    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_GetTotalSoldeResponse_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_GetTotalSoldeResponse_fieldAccessorTable
+    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_GetTotalSoldeResponse_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             ma.projet.grpc.stubs.GetTotalSoldeResponse.class, ma.projet.grpc.stubs.GetTotalSoldeResponse.Builder.class);
   }
@@ -100,21 +100,21 @@ private static final long serialVersionUID = 0L;
   public static final int STATS_FIELD_NUMBER = 1;
   private ma.projet.grpc.stubs.SoldeStats stats_;
   /**
-   * <code>.com.example.grpcdemo.SoldeStats stats = 1;</code>
+   * <code>.SoldeStats stats = 1;</code>
    * @return Whether the stats field is set.
    */
   public boolean hasStats() {
     return stats_ != null;
   }
   /**
-   * <code>.com.example.grpcdemo.SoldeStats stats = 1;</code>
+   * <code>.SoldeStats stats = 1;</code>
    * @return The stats.
    */
   public ma.projet.grpc.stubs.SoldeStats getStats() {
     return stats_ == null ? ma.projet.grpc.stubs.SoldeStats.getDefaultInstance() : stats_;
   }
   /**
-   * <code>.com.example.grpcdemo.SoldeStats stats = 1;</code>
+   * <code>.SoldeStats stats = 1;</code>
    */
   public ma.projet.grpc.stubs.SoldeStatsOrBuilder getStatsOrBuilder() {
     return getStats();
@@ -285,21 +285,21 @@ private static final long serialVersionUID = 0L;
    * Réponse contenant les statistiques de solde
    * </pre>
    *
-   * Protobuf type {@code com.example.grpcdemo.GetTotalSoldeResponse}
+   * Protobuf type {@code GetTotalSoldeResponse}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:com.example.grpcdemo.GetTotalSoldeResponse)
+      // @@protoc_insertion_point(builder_implements:GetTotalSoldeResponse)
       ma.projet.grpc.stubs.GetTotalSoldeResponseOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_GetTotalSoldeResponse_descriptor;
+      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_GetTotalSoldeResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_GetTotalSoldeResponse_fieldAccessorTable
+      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_GetTotalSoldeResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               ma.projet.grpc.stubs.GetTotalSoldeResponse.class, ma.projet.grpc.stubs.GetTotalSoldeResponse.Builder.class);
     }
@@ -334,7 +334,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_GetTotalSoldeResponse_descriptor;
+      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_GetTotalSoldeResponse_descriptor;
     }
 
     @java.lang.Override
@@ -443,14 +443,14 @@ private static final long serialVersionUID = 0L;
     private com.google.protobuf.SingleFieldBuilderV3<
         ma.projet.grpc.stubs.SoldeStats, ma.projet.grpc.stubs.SoldeStats.Builder, ma.projet.grpc.stubs.SoldeStatsOrBuilder> statsBuilder_;
     /**
-     * <code>.com.example.grpcdemo.SoldeStats stats = 1;</code>
+     * <code>.SoldeStats stats = 1;</code>
      * @return Whether the stats field is set.
      */
     public boolean hasStats() {
       return statsBuilder_ != null || stats_ != null;
     }
     /**
-     * <code>.com.example.grpcdemo.SoldeStats stats = 1;</code>
+     * <code>.SoldeStats stats = 1;</code>
      * @return The stats.
      */
     public ma.projet.grpc.stubs.SoldeStats getStats() {
@@ -461,7 +461,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.com.example.grpcdemo.SoldeStats stats = 1;</code>
+     * <code>.SoldeStats stats = 1;</code>
      */
     public Builder setStats(ma.projet.grpc.stubs.SoldeStats value) {
       if (statsBuilder_ == null) {
@@ -477,7 +477,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.example.grpcdemo.SoldeStats stats = 1;</code>
+     * <code>.SoldeStats stats = 1;</code>
      */
     public Builder setStats(
         ma.projet.grpc.stubs.SoldeStats.Builder builderForValue) {
@@ -491,7 +491,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.example.grpcdemo.SoldeStats stats = 1;</code>
+     * <code>.SoldeStats stats = 1;</code>
      */
     public Builder mergeStats(ma.projet.grpc.stubs.SoldeStats value) {
       if (statsBuilder_ == null) {
@@ -509,7 +509,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.example.grpcdemo.SoldeStats stats = 1;</code>
+     * <code>.SoldeStats stats = 1;</code>
      */
     public Builder clearStats() {
       if (statsBuilder_ == null) {
@@ -523,7 +523,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.example.grpcdemo.SoldeStats stats = 1;</code>
+     * <code>.SoldeStats stats = 1;</code>
      */
     public ma.projet.grpc.stubs.SoldeStats.Builder getStatsBuilder() {
       
@@ -531,7 +531,7 @@ private static final long serialVersionUID = 0L;
       return getStatsFieldBuilder().getBuilder();
     }
     /**
-     * <code>.com.example.grpcdemo.SoldeStats stats = 1;</code>
+     * <code>.SoldeStats stats = 1;</code>
      */
     public ma.projet.grpc.stubs.SoldeStatsOrBuilder getStatsOrBuilder() {
       if (statsBuilder_ != null) {
@@ -542,7 +542,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.com.example.grpcdemo.SoldeStats stats = 1;</code>
+     * <code>.SoldeStats stats = 1;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         ma.projet.grpc.stubs.SoldeStats, ma.projet.grpc.stubs.SoldeStats.Builder, ma.projet.grpc.stubs.SoldeStatsOrBuilder> 
@@ -570,10 +570,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:com.example.grpcdemo.GetTotalSoldeResponse)
+    // @@protoc_insertion_point(builder_scope:GetTotalSoldeResponse)
   }
 
-  // @@protoc_insertion_point(class_scope:com.example.grpcdemo.GetTotalSoldeResponse)
+  // @@protoc_insertion_point(class_scope:GetTotalSoldeResponse)
   private static final ma.projet.grpc.stubs.GetTotalSoldeResponse DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new ma.projet.grpc.stubs.GetTotalSoldeResponse();

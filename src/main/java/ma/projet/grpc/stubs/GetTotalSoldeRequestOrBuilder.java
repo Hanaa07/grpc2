@@ -4,6 +4,6 @@
 package ma.projet.grpc.stubs;
 
 public interface GetTotalSoldeRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:com.example.grpcdemo.GetTotalSoldeRequest)
+    // @@protoc_insertion_point(interface_extends:GetTotalSoldeRequest)
     com.google.protobuf.MessageOrBuilder {
 }

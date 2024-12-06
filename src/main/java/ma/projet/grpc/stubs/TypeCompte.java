@@ -8,7 +8,7 @@ package ma.projet.grpc.stubs;
  * Enumération pour le type de compte
  * </pre>
  *
- * Protobuf enum {@code com.example.grpcdemo.TypeCompte}
+ * Protobuf enum {@code TypeCompte}
  */
 public enum TypeCompte
     implements com.google.protobuf.ProtocolMessageEnum {
@@ -108,6 +108,6 @@ public enum TypeCompte
     this.value = value;
   }
 
-  // @@protoc_insertion_point(enum_scope:com.example.grpcdemo.TypeCompte)
+  // @@protoc_insertion_point(enum_scope:TypeCompte)
 }
 

@@ -3,8 +3,8 @@
 
 package ma.projet.grpc.stubs;
 
-public interface GetCompteByIdRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:GetCompteByIdRequest)
+public interface DeleteCompteRequestOrBuilder extends
+    // @@protoc_insertion_point(interface_extends:DeleteCompteRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**

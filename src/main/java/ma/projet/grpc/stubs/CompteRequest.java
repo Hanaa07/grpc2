@@ -8,11 +8,11 @@ package ma.projet.grpc.stubs;
  * Message pour la requête de création ou mise à jour d'un compte
  * </pre>
  *
- * Protobuf type {@code com.example.grpcdemo.CompteRequest}
+ * Protobuf type {@code CompteRequest}
  */
 public  final class CompteRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:com.example.grpcdemo.CompteRequest)
+    // @@protoc_insertion_point(message_implements:CompteRequest)
     CompteRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use CompteRequest.newBuilder() to construct.
@@ -92,13 +92,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_CompteRequest_descriptor;
+    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_CompteRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_CompteRequest_fieldAccessorTable
+    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_CompteRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             ma.projet.grpc.stubs.CompteRequest.class, ma.projet.grpc.stubs.CompteRequest.Builder.class);
   }
@@ -152,14 +152,14 @@ private static final long serialVersionUID = 0L;
   public static final int TYPE_FIELD_NUMBER = 3;
   private int type_;
   /**
-   * <code>.com.example.grpcdemo.TypeCompte type = 3;</code>
+   * <code>.TypeCompte type = 3;</code>
    * @return The enum numeric value on the wire for type.
    */
   public int getTypeValue() {
     return type_;
   }
   /**
-   * <code>.com.example.grpcdemo.TypeCompte type = 3;</code>
+   * <code>.TypeCompte type = 3;</code>
    * @return The type.
    */
   public ma.projet.grpc.stubs.TypeCompte getType() {
@@ -350,21 +350,21 @@ private static final long serialVersionUID = 0L;
    * Message pour la requête de création ou mise à jour d'un compte
    * </pre>
    *
-   * Protobuf type {@code com.example.grpcdemo.CompteRequest}
+   * Protobuf type {@code CompteRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:com.example.grpcdemo.CompteRequest)
+      // @@protoc_insertion_point(builder_implements:CompteRequest)
       ma.projet.grpc.stubs.CompteRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_CompteRequest_descriptor;
+      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_CompteRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_CompteRequest_fieldAccessorTable
+      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_CompteRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               ma.projet.grpc.stubs.CompteRequest.class, ma.projet.grpc.stubs.CompteRequest.Builder.class);
     }
@@ -399,7 +399,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_CompteRequest_descriptor;
+      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_CompteRequest_descriptor;
     }
 
     @java.lang.Override
@@ -617,14 +617,14 @@ private static final long serialVersionUID = 0L;
 
     private int type_ = 0;
     /**
-     * <code>.com.example.grpcdemo.TypeCompte type = 3;</code>
+     * <code>.TypeCompte type = 3;</code>
      * @return The enum numeric value on the wire for type.
      */
     public int getTypeValue() {
       return type_;
     }
     /**
-     * <code>.com.example.grpcdemo.TypeCompte type = 3;</code>
+     * <code>.TypeCompte type = 3;</code>
      * @param value The enum numeric value on the wire for type to set.
      * @return This builder for chaining.
      */
@@ -634,7 +634,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.example.grpcdemo.TypeCompte type = 3;</code>
+     * <code>.TypeCompte type = 3;</code>
      * @return The type.
      */
     public ma.projet.grpc.stubs.TypeCompte getType() {
@@ -643,7 +643,7 @@ private static final long serialVersionUID = 0L;
       return result == null ? ma.projet.grpc.stubs.TypeCompte.UNRECOGNIZED : result;
     }
     /**
-     * <code>.com.example.grpcdemo.TypeCompte type = 3;</code>
+     * <code>.TypeCompte type = 3;</code>
      * @param value The type to set.
      * @return This builder for chaining.
      */
@@ -657,7 +657,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.example.grpcdemo.TypeCompte type = 3;</code>
+     * <code>.TypeCompte type = 3;</code>
      * @return This builder for chaining.
      */
     public Builder clearType() {
@@ -679,10 +679,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:com.example.grpcdemo.CompteRequest)
+    // @@protoc_insertion_point(builder_scope:CompteRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:com.example.grpcdemo.CompteRequest)
+  // @@protoc_insertion_point(class_scope:CompteRequest)
   private static final ma.projet.grpc.stubs.CompteRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new ma.projet.grpc.stubs.CompteRequest();

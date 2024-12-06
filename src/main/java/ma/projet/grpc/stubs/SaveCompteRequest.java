@@ -8,11 +8,11 @@ package ma.projet.grpc.stubs;
  * Requête pour sauvegarder un compte (création ou mise à jour)
  * </pre>
  *
- * Protobuf type {@code com.example.grpcdemo.SaveCompteRequest}
+ * Protobuf type {@code SaveCompteRequest}
  */
 public  final class SaveCompteRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:com.example.grpcdemo.SaveCompteRequest)
+    // @@protoc_insertion_point(message_implements:SaveCompteRequest)
     SaveCompteRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use SaveCompteRequest.newBuilder() to construct.
@@ -86,13 +86,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_SaveCompteRequest_descriptor;
+    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_SaveCompteRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_SaveCompteRequest_fieldAccessorTable
+    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_SaveCompteRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             ma.projet.grpc.stubs.SaveCompteRequest.class, ma.projet.grpc.stubs.SaveCompteRequest.Builder.class);
   }
@@ -100,21 +100,21 @@ private static final long serialVersionUID = 0L;
   public static final int COMPTE_FIELD_NUMBER = 1;
   private ma.projet.grpc.stubs.CompteRequest compte_;
   /**
-   * <code>.com.example.grpcdemo.CompteRequest compte = 1;</code>
+   * <code>.CompteRequest compte = 1;</code>
    * @return Whether the compte field is set.
    */
   public boolean hasCompte() {
     return compte_ != null;
   }
   /**
-   * <code>.com.example.grpcdemo.CompteRequest compte = 1;</code>
+   * <code>.CompteRequest compte = 1;</code>
    * @return The compte.
    */
   public ma.projet.grpc.stubs.CompteRequest getCompte() {
     return compte_ == null ? ma.projet.grpc.stubs.CompteRequest.getDefaultInstance() : compte_;
   }
   /**
-   * <code>.com.example.grpcdemo.CompteRequest compte = 1;</code>
+   * <code>.CompteRequest compte = 1;</code>
    */
   public ma.projet.grpc.stubs.CompteRequestOrBuilder getCompteOrBuilder() {
     return getCompte();
@@ -285,21 +285,21 @@ private static final long serialVersionUID = 0L;
    * Requête pour sauvegarder un compte (création ou mise à jour)
    * </pre>
    *
-   * Protobuf type {@code com.example.grpcdemo.SaveCompteRequest}
+   * Protobuf type {@code SaveCompteRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:com.example.grpcdemo.SaveCompteRequest)
+      // @@protoc_insertion_point(builder_implements:SaveCompteRequest)
       ma.projet.grpc.stubs.SaveCompteRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_SaveCompteRequest_descriptor;
+      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_SaveCompteRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_SaveCompteRequest_fieldAccessorTable
+      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_SaveCompteRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               ma.projet.grpc.stubs.SaveCompteRequest.class, ma.projet.grpc.stubs.SaveCompteRequest.Builder.class);
     }
@@ -334,7 +334,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_SaveCompteRequest_descriptor;
+      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_SaveCompteRequest_descriptor;
     }
 
     @java.lang.Override
@@ -443,14 +443,14 @@ private static final long serialVersionUID = 0L;
     private com.google.protobuf.SingleFieldBuilderV3<
         ma.projet.grpc.stubs.CompteRequest, ma.projet.grpc.stubs.CompteRequest.Builder, ma.projet.grpc.stubs.CompteRequestOrBuilder> compteBuilder_;
     /**
-     * <code>.com.example.grpcdemo.CompteRequest compte = 1;</code>
+     * <code>.CompteRequest compte = 1;</code>
      * @return Whether the compte field is set.
      */
     public boolean hasCompte() {
       return compteBuilder_ != null || compte_ != null;
     }
     /**
-     * <code>.com.example.grpcdemo.CompteRequest compte = 1;</code>
+     * <code>.CompteRequest compte = 1;</code>
      * @return The compte.
      */
     public ma.projet.grpc.stubs.CompteRequest getCompte() {
@@ -461,7 +461,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.com.example.grpcdemo.CompteRequest compte = 1;</code>
+     * <code>.CompteRequest compte = 1;</code>
      */
     public Builder setCompte(ma.projet.grpc.stubs.CompteRequest value) {
       if (compteBuilder_ == null) {
@@ -477,7 +477,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.example.grpcdemo.CompteRequest compte = 1;</code>
+     * <code>.CompteRequest compte = 1;</code>
      */
     public Builder setCompte(
         ma.projet.grpc.stubs.CompteRequest.Builder builderForValue) {
@@ -491,7 +491,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.example.grpcdemo.CompteRequest compte = 1;</code>
+     * <code>.CompteRequest compte = 1;</code>
      */
     public Builder mergeCompte(ma.projet.grpc.stubs.CompteRequest value) {
       if (compteBuilder_ == null) {
@@ -509,7 +509,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.example.grpcdemo.CompteRequest compte = 1;</code>
+     * <code>.CompteRequest compte = 1;</code>
      */
     public Builder clearCompte() {
       if (compteBuilder_ == null) {
@@ -523,7 +523,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.com.example.grpcdemo.CompteRequest compte = 1;</code>
+     * <code>.CompteRequest compte = 1;</code>
      */
     public ma.projet.grpc.stubs.CompteRequest.Builder getCompteBuilder() {
       
@@ -531,7 +531,7 @@ private static final long serialVersionUID = 0L;
       return getCompteFieldBuilder().getBuilder();
     }
     /**
-     * <code>.com.example.grpcdemo.CompteRequest compte = 1;</code>
+     * <code>.CompteRequest compte = 1;</code>
      */
     public ma.projet.grpc.stubs.CompteRequestOrBuilder getCompteOrBuilder() {
       if (compteBuilder_ != null) {
@@ -542,7 +542,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.com.example.grpcdemo.CompteRequest compte = 1;</code>
+     * <code>.CompteRequest compte = 1;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         ma.projet.grpc.stubs.CompteRequest, ma.projet.grpc.stubs.CompteRequest.Builder, ma.projet.grpc.stubs.CompteRequestOrBuilder> 
@@ -570,10 +570,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:com.example.grpcdemo.SaveCompteRequest)
+    // @@protoc_insertion_point(builder_scope:SaveCompteRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:com.example.grpcdemo.SaveCompteRequest)
+  // @@protoc_insertion_point(class_scope:SaveCompteRequest)
   private static final ma.projet.grpc.stubs.SaveCompteRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new ma.projet.grpc.stubs.SaveCompteRequest();

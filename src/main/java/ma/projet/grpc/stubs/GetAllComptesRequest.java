@@ -8,11 +8,11 @@ package ma.projet.grpc.stubs;
  * Requête pour obtenir tous les comptes
  * </pre>
  *
- * Protobuf type {@code com.example.grpcdemo.GetAllComptesRequest}
+ * Protobuf type {@code GetAllComptesRequest}
  */
 public  final class GetAllComptesRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:com.example.grpcdemo.GetAllComptesRequest)
+    // @@protoc_insertion_point(message_implements:GetAllComptesRequest)
     GetAllComptesRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use GetAllComptesRequest.newBuilder() to construct.
@@ -73,13 +73,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_GetAllComptesRequest_descriptor;
+    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_GetAllComptesRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_GetAllComptesRequest_fieldAccessorTable
+    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_GetAllComptesRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             ma.projet.grpc.stubs.GetAllComptesRequest.class, ma.projet.grpc.stubs.GetAllComptesRequest.Builder.class);
   }
@@ -233,21 +233,21 @@ private static final long serialVersionUID = 0L;
    * Requête pour obtenir tous les comptes
    * </pre>
    *
-   * Protobuf type {@code com.example.grpcdemo.GetAllComptesRequest}
+   * Protobuf type {@code GetAllComptesRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:com.example.grpcdemo.GetAllComptesRequest)
+      // @@protoc_insertion_point(builder_implements:GetAllComptesRequest)
       ma.projet.grpc.stubs.GetAllComptesRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_GetAllComptesRequest_descriptor;
+      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_GetAllComptesRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_GetAllComptesRequest_fieldAccessorTable
+      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_GetAllComptesRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               ma.projet.grpc.stubs.GetAllComptesRequest.class, ma.projet.grpc.stubs.GetAllComptesRequest.Builder.class);
     }
@@ -276,7 +276,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_GetAllComptesRequest_descriptor;
+      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_GetAllComptesRequest_descriptor;
     }
 
     @java.lang.Override
@@ -385,10 +385,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:com.example.grpcdemo.GetAllComptesRequest)
+    // @@protoc_insertion_point(builder_scope:GetAllComptesRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:com.example.grpcdemo.GetAllComptesRequest)
+  // @@protoc_insertion_point(class_scope:GetAllComptesRequest)
   private static final ma.projet.grpc.stubs.GetAllComptesRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new ma.projet.grpc.stubs.GetAllComptesRequest();
