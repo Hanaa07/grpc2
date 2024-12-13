@@ -10,7 +10,7 @@ enum TypeCompte {
 
 // Message représentant un compte
 message Compte {
-  string id = 1;
+  int64 id = 1;
   float solde = 2;
   string dateCreation = 3;
   TypeCompte type = 4;

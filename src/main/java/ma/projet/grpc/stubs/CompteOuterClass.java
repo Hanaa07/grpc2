@@ -98,7 +98,7 @@ public final class CompteOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\014compte.proto\"T\n\006Compte\022\n\n\002id\030\001 \001(\t\022\r\n\005" +
+      "\n\014compte.proto\"T\n\006Compte\022\n\n\002id\030\001 \001(\003\022\r\n\005" +
       "solde\030\002 \001(\002\022\024\n\014dateCreation\030\003 \001(\t\022\031\n\004typ" +
       "e\030\004 \001(\0162\013.TypeCompte\"O\n\rCompteRequest\022\r\n" +
       "\005solde\030\001 \001(\002\022\024\n\014dateCreation\030\002 \001(\t\022\031\n\004ty" +
